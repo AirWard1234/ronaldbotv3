@@ -42,7 +42,7 @@ async def help(ctx):
 	await ctx.author.send(embed=embed)
 
 
-extensions = ['cogs.AdminCommands', 'cogs.FunCommands', 'cogs.CommandEvents']
+extensions = ['AdminCommands.py', 'FunCommands.py', 'CommandEvents.py']
 
 if __name__ == '__main__':	
 	for ext in extensions:
